@@ -1,3 +1,3 @@
-export default function handler(req, res) {
-  res.status(200).json({ message: "Hello World from Vercel Test by Bilbo Baggins!" });
-}
+module.exports = (req, res) => {
+  res.status(200).send("OK");
+};
